@@ -1,0 +1,14 @@
+# Caminho base do dataset
+path: /home/lab333/marcelinho/abdomen1k/subtask1
+
+# Pastas contendo as imagens para treino, validação e teste
+train: images/train_fake
+val: images/val
+test: images/test
+
+names:
+  0: background
+  1: liver
+  2: kidney
+  3: spleen
+  4: pancreas
